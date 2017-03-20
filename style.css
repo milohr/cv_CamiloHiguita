@@ -1,1 +1,158 @@
+body {
+    margin: 0;
+    padding 0;
+   
+}
+
+#profile img {
+    width: 160px;
+    height: auto;
+    border-radius: 80%;
+    border:1px solid #575757;
+        box-shadow: 5px 4px 2px #888888;
+-webkit-box-shadow: inset 6px 6px 0px 0px rgba(255,255,255,1);
+-moz-box-shadow: inset 6px 6px 0px 0px rgba(255,255,255,1);
+box-shadow: inset 6px 6px 0px 0px rgba(255,255,255,1);
+}
+
+a
+{
+    text-decoration: none;
+}
+
+p
+{
+    font-size: 12px;
+    max-width: 500px;
+
+}
+
+h1 {
+    line-height: 1.5;
+    font-weight: bold;
+    font-family: helvetica;
+    font-size: 16px;
+    color: #333;
+    line-height:0.5;
+}
+
+h1 #bio
+{
+    font-size: 12px;
+    font-style: italic;
+    line-height:0.9;
+}
+
+#desc
+{
+    font-size: 12px;
+    font-style: italic;
+    line-height:1.5;
+}
+
+h2 {
+      
+   font-weight: lighter;
+    font-family: courier;
+        font-style: italic;
+
+    font-size: 10px;
+    color: #575757;
+}
+
+h3
+{
+    
+    font-family: courier;
+     font-size: 10px;
+    color: #333;
+}
+
+
+#content
+{
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center;
+    
+}
+
+#content #artwork,
+#content #info
+{
  
+ background:pink;
+
+  width: inherit;
+    height: 100%;
+
+     display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center;
+       
+}
+
+
+#content #sidebar
+{
+    margin-left: 20px;
+    margin-right: 20px;
+ 
+
+  width: inherit;
+    height: 100%;
+  max-width: 300px;
+     display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center;
+       
+}
+
+
+#content #menu
+{
+    margin-top:20px;
+    font-family: courier;
+   
+}
+
+#content #menu #items h3
+{
+    display: inline;
+    cursor:pointer;
+}
+
+
+
+
+
+
+#title
+{
+    display: block;
+}
+    
+    
+
+ #artwork
+{
+ 
+    height: inherit;
+    text-align: center;
+    
+}
+
+#artwork #imgs img
+{
+  
+    
+    width: 400px;
+    height: inherit;
+    background-size: cover;
+     display: inline;
+
+}
+
